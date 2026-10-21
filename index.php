@@ -113,7 +113,8 @@
                         <td><?php echo $data["nim"] ?></td>
                         <td><?php echo $data["nama"] ?></td>
                         <td><?php echo $data["jurusan"] ?></td>
-                        <td><?php echo $data["email"] ?></td>                            <td><?php echo $data["nilai"] ?></td>
+                        <td><?php echo $data["email"] ?></td>                            
+                        <td><?php echo $data["nilai"] ?></td>
                         <td>
                             <?php
                                 if($data["nilai"] >= 80) {
